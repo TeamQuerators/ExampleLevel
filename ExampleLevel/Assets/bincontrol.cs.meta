@@ -3,7 +3,18 @@ guid: 3f57d82d3267b2c4dab09c47b300ee97
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - pizzaObj: {fileID: 68027601635125912, guid: 3fec3fb1767311f4dbcbe9aad670a2d4,
+      type: 3}
+  - pastaObj: {fileID: 2560846815886098518, guid: 98379c3b6dbfd9f48a5c99a8d4959fb8,
+      type: 3}
+  - marinarasauceObj: {fileID: 69483812597115987, guid: e7695398434e33c45a084a3f8a2b5470,
+      type: 3}
+  - cheeseObj: {instanceID: 0}
+  - plateObj: {fileID: 486360777712841280, guid: 79e9ab0ee47b7a8469928da8d08242e5,
+      type: 3}
+  - trayObj: {fileID: 2267129635908737225, guid: ef7a43b2a829687449683fbb3f349df3,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

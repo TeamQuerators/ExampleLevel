@@ -25,13 +25,12 @@ public class bincontrol : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (gameObject.name == "trayBin")
+        if (gameObject.name == "platestackBin")
         {
             if (gameplay.servingBoardS1 == "empty")
             {
-                Instantiate(trayObj, new Vector2(-1, -1f), trayObj.rotation);
-                Instantiate(pastaObj, new Vector2(-1, -1.25f), pastaObj.rotation);
-                gameplay.servingBoardS1 = "justPasta";
+                Instantiate(plateObj, new Vector2(5, -2f), plateObj.rotation);
+                gameplay.servingBoardS1 = "justPlate";
                 gameplay.selectedSlot = 1;
             }
 

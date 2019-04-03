@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 486360777712841280}
   - component: {fileID: 486360777712841281}
   - component: {fileID: 5418603428758192418}
+  - component: {fileID: 4355053063369682677}
   m_Layer: 0
   m_Name: plate
   m_TagString: Untagged
@@ -198,3 +199,21 @@ PolygonCollider2D:
       - {x: 0.14999999, y: -1.88}
       - {x: 0.28, y: -1.87}
       - {x: 0.47, y: -1.8499999}
+--- !u!114 &4355053063369682677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486360777712841282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f57d82d3267b2c4dab09c47b300ee97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pizzaObj: {fileID: 0}
+  pastaObj: {fileID: 0}
+  marinarasauceObj: {fileID: 0}
+  cheeseObj: {fileID: 0}
+  plateObj: {fileID: 0}
+  trayObj: {fileID: 0}
