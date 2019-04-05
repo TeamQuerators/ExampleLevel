@@ -184,4 +184,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25e2ebf1e921d7438e060e2277f020f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  occupiedSlot: 0
   mousecontrolled: n
