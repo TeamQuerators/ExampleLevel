@@ -11,7 +11,7 @@ public class countdowntimer : MonoBehaviour
     [SerializeField] Text countdownText;*/
     public Text timerText;
     private float startTime;
-    public static float TimeLeft = 312f;
+    public static float TimeLeft = 120f;
 
 
     // Start is called before the first frame update
