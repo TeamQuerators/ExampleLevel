@@ -27,7 +27,7 @@ public class movefood : MonoBehaviour
 
         if ((Trash.deleteFood == "y") && mousecontrolled == "y")
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
         
     }

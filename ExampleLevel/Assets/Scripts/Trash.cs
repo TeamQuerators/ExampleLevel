@@ -18,7 +18,7 @@ public class Trash : MonoBehaviour
     {
         if ((deleteFood == "y"))
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
             deleteFood = "n";
 
         }
