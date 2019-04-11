@@ -42,16 +42,16 @@ public class bincontrol : MonoBehaviour
         {
             if (gameplay.servingBoardS1 == "empty")
             {
-                Instantiate(platetopObj, new Vector2(2.75f, -0.75f), platetopObj.rotation);
-                Instantiate(platebottomObj, new Vector2(2.75f, -0.75f), platebottomObj.rotation);
+                Instantiate(platetopObj, new Vector2(2, -1), platetopObj.rotation);
+                Instantiate(platebottomObj, new Vector2(2, -1), platebottomObj.rotation);
                 gameplay.servingBoardS1 = "justplate";
                 //gameplay.selectedSlot = 1;
             }
             else 
                 if (gameplay.servingBoardS2 == "empty")
                 {
-                    Instantiate(platetopObj, new Vector2(2.75f, -1.75f), platetopObj.rotation);
-                    Instantiate(platebottomObj, new Vector2(2.75f, -1.75f), platebottomObj.rotation);
+                    Instantiate(platetopObj, new Vector2(2, -2f), platetopObj.rotation);
+                    Instantiate(platebottomObj, new Vector2(2, -2f), platebottomObj.rotation);
                     gameplay.servingBoardS2 = "justplate";
                     //gameplay.selectedSlot = 1;
                 }

@@ -19,16 +19,17 @@ public class movefood : MonoBehaviour
     {
         if (mousecontrolled == "y")
         {
+            mousecontrolled = "y"; //subject to change
             Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
             Vector2 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
             transform.position = objPosition;
         }
 
-        /*if ((gameplay.deleteFood == "y") && mousecontrolled == "y")
+        if ((Trash.deleteFood == "y") && mousecontrolled == "y")
         {
             Destroy(gameObject);
         }
-        */
+        
     }
 
     void OnMouseDown()
